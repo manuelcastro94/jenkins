@@ -1,12 +1,15 @@
 package test;
 
+import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class HelloJenkinsTest {
 	
 	@Test
 	public void testJenkins(){
-		System.out.println("Testing jenkins");
+		assertFalse("failure - should be false", false);
+		
 		
 	}
 
